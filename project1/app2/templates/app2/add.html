@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Add</title>
+    </head>
+    <body>
+        <h1>This is a page to add two numbers</h1>
+        <br />
+        <form action="sum/" method="post">
+            {% csrf_token %}
+            <label for="num1">Enter num1 : </label><br />
+            <input type="number" name="num1" /><br />
+            <label for="num2"> Enter num2 : </label><br />
+            <input type="number" name="num2" /><br />
+            <br />
+            <button type="submit">Submit</button>
+        </form>
+        <hr />
+        <a href="/app2/"> Return to app2 home page </a>
+    </body>
+</html>
