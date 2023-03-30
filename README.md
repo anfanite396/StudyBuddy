@@ -1,2 +1,2 @@
 # repo1
-This is a test repo. It contains a django project.
+This is my first project in django. It is a discord-like application where people can join various channels and discuss on respective topics.
